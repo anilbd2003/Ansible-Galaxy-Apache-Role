@@ -7,7 +7,7 @@
      group: azureuser
      mode: '0755'
 
-- name: Set up virtuahHost
+- name: Set up virtualHost
   template:
      src: "templates/apacheconf.j2"
      dest: "/etc/apache2/sites-available/{{ http_conf }}"
