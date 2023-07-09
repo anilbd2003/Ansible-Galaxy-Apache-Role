@@ -22,4 +22,4 @@ Example Playbook
 
     - hosts: node
       roles:
-         - apache
+      - apache
