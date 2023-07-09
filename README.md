@@ -7,10 +7,13 @@ Role Variables
 --------------
 
 defaults/main.yml     
+
     http_port: 80
 
-vars/main.yml       
+vars/main.yml  
+
     http_host: domain1.local
+    
     http_conf: domain1.local.conf
     
 
