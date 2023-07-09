@@ -1,0 +1,10 @@
+---
+# handlers file for apache
+- name: start-service # name must be similar to notify task
+  service:
+    name: apache2
+    state: started
+- name: restart-apache # name must be similar to notify task
+  service:
+    name: apache2
+    state: restarted

@@ -1,0 +1,7 @@
+---
+- name: Install latest version of Apache
+  apt:
+    name: apache2
+    update_cache: yes
+    state: present
+  notify: start-service # this will call handler task of same name (once you install apache2, you need to start service.)

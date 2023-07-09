@@ -1,0 +1,4 @@
+---
+# vars file for apache
+http_host: domain1.local
+http_conf: domain1.local.conf
